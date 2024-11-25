@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/css/style.css" />
+        <title>Elgen's Contact List</title>
+        <link rel="icon" href="https://www.dpzone.in/wp-content/uploads/1/Cool-DP-for-Discord-Profile-Picture-7.jpg" type="image/jpeg">
+    </head>
+    <body class="background">
+        <header>
+            <h1>Contact List With Express</h1>
+            <p class="subtitle">Manage your contacts with ease</p>
+        </header>
+
+        <main>
+            <div class="container">
+                <table id="contact-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Contact</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Contact rows will be added here dynamically -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="btn-container">
+                <button id="add-contact-btn" onclick="addContact()">Add Contact</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Contact List</p>
+        </footer>
+
+        <script src="/js/script.js"></script>
+    </body>
+</html>
