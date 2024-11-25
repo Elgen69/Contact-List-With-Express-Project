@@ -62,7 +62,6 @@ Run the following command to start the server:
 ```bash
 npm start
 ```
-
 The server will be running on `http://localhost:6969`.
 
 ---
